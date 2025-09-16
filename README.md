@@ -7,8 +7,6 @@ Export Graphic to PNG
 
 Скрипт для создания и экспорта графиков в формате PNG с использованием matplotlib и pandas.
 
-# Установка
-
 # Требования
 Python 3.8 или выше
 pip (менеджер пакетов Python)
@@ -59,11 +57,10 @@ print(f"График создан: {graph}")
 - Ошибки записи файла
 
 
-```
 
 ## Структура проекта
 
-```
+
 ```
 project/
 ├── export_graphic_to_png.py  # Основной скрипт
@@ -71,16 +68,16 @@ project/
 ├── README.md                # Эта документация
 └── plot.png                 # Пример выходного файла
 ```
-```
+
 
 # Requirements
-
+```
 - **matplotlib** (>=3.8.0) - для создания графиков
 - **pandas** (>=2.1.1) - для работы с данными
+```
+# Установка всех зависимостей:
 
-Установка всех зависимостей:
-```bash
-pip install matplotlib pandas
+`pip install matplotlib pandas`
 ```
 
 # Выходные данные
